@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Desafio Lista de Convidados</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="/CSS/estilo.css">
+    <link rel="shortcut icon" href="/IMG/ico.ico" type="image/x-icon">
+    <script src="/JS/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lista de convidados!</h1>
+        <ul id="lista"></ul>
+        <input type="text" id="i_convidado" placeholder="Coloque o nome do convidado aqui por favor.." required>
+        <div class="botones">
+            <button onclick="convidarPessoa()" id="btn-convidar"><span>Convidar agora</span></button>
+            <button onclick="excluirConvidado()" id="btn-exc">Remover convidado</button>
+            <button onclick="excluirShift()" id="btn-excluirPrimeiro">Remover só o primeiro </button>
+        </div>
+        <footer>Desenvolvido por Victor <br> Kick &copy;</footer>
+    </div>
+</body>
+
+</html>
