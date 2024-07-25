@@ -1,16 +1,13 @@
 @media (max-width: 480px) {
 
     body {
-        /*   background-image: url(../IMG/bk-responsividade-480.jpg);
-             background-image: url('../IMG/bk-responsividade-480.jpg');
-             background-image: url('/IMG/bk-responsividade-480.jpg');
-
-        */
-
-        background-image: url(/IMG/bk-responsividade-480.jpg);
-
-
+        background-image: url('../IMG/bk-responsividade-480.jpg');
     }
+
+
+
+
+    
 
     .container {
         background-color: #0f185f46;
