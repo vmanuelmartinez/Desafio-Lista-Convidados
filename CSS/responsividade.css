@@ -1,14 +1,22 @@
 @media (max-width: 480px) {
 
     body {
-        background-image: none;
-        background-color: #051339;
+        background-image: url(/IMG/bk-responsividade-480.jpg);
+        
         width: 100%;
     }
 
-    .container{
-        
-        background-color: #d1d3e268;
+    .container{        
+        background-color: #0f185f46;
+    }
+
+    .container span:hover {
+        transform: scale(1.8);
+        color: #ccc;
+    }
+
+    footer{
+    font-weight: bold;
     }
 
 }

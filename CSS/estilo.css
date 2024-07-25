@@ -30,7 +30,7 @@ body {
     color: #5d593b;
 }
 
-.container h1 span:hover {
+.container span:hover {
     transform: scale(1.6);
     color: #ccc;
 }
@@ -73,7 +73,7 @@ span {
     font-size: 20px;
 }
 
-#btn-exc, span {
+#btn-exc,span {
     font-size: 20px;
 }
 
