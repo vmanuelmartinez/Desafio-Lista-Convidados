@@ -30,7 +30,7 @@ body {
     color: #5d593b;
 }
 
-.container span:hover {
+.container h1 span:hover {
     transform: scale(1.6);
     color: #ccc;
 }
