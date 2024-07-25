@@ -91,3 +91,41 @@ span {
     color: #ccc;
 }
 
+@media (max-width: 480px) {
+
+    body {
+        background-image: url('/IMG/bk-responsividade-480.jpg');        
+       
+    }
+
+    .container{        
+        background-color: #0f185f46;
+        width: 100%;
+        height: 100%;       
+        margin: 5%;
+    }
+
+    .container span:hover {
+        transform: scale(1.8);
+        color: #ccc;
+    }
+    #btn-convidar:hover {
+        background-color: #5b2360;
+        color: #ccc;
+    }
+    
+    #btn-exc:hover {
+        background-color: #950202;
+        color: #ccc;
+    }
+    
+    #btn-excluirPrimeiro:hover {
+        background-color: #1f9399;
+        color: #ccc;
+    }
+    footer{
+    font-weight: bold;
+    }
+
+}
+
