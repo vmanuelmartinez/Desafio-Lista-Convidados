@@ -1,0 +1,15 @@
+@media (max-width: 480px) {
+
+    body {
+        background-image: none;
+        background-color: #051339;
+        width: 100%;
+    }
+
+    .container{
+        
+        background-color: #d1d3e268;
+    }
+
+}
+

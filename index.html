@@ -1,23 +1,36 @@
 <!DOCTYPE html>
-
 <html>
 <head>
     <title>Desafio Lista de Convidados</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <link rel="stylesheet" href="/CSS/estilo.css">
+    <link rel="stylesheet" href="/CSS/responsividade.css">
     <link rel="shortcut icon" href="/IMG/ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="/JS/script.js" defer></script>
 </head>
 
 <body>
     <div class="container">
-        <h1>Lista de convidados!</h1>
+        <h1>Lista de convidados! <span class="material-symbols-outlined">
+                celebration
+            </span></h1>
         <ul id="lista"></ul>
         <input type="text" id="i_convidado" placeholder="Coloque o nome do convidado aqui por favor.." required>
         <div class="botones">
-            <button onclick="convidarPessoa()" id="btn-convidar"><span>Convidar agora</span></button>
-            <button onclick="excluirConvidado()" id="btn-exc">Remover convidado</button>
-            <button onclick="excluirShift()" id="btn-excluirPrimeiro">Remover só o primeiro </button>
+
+            <button onclick="convidarPessoa()" id="btn-convidar">Convidar agora <span class="material-symbols-outlined">
+                mail
+                </span></button>
+            <button onclick="excluirConvidado()" id="btn-exc">Remover convidado<span
+                    class="material-symbols-outlined">delete
+                </span>
+            </button>
+
+            <button onclick="excluirShift()" id="btn-excluirPrimeiro">Remover primeiro convidado<span class="material-symbols-outlined">
+                person_remove
+                </span>
+            </button>
         </div>
         <footer>Desenvolvido por Victor <br> Kick &copy;</footer>
     </div>
