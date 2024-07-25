@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sahitya:wght@400;700&display=swap');
-@import url('CSS/responsividade.css');
 
 body {
     background-image: url(/IMG/6cf01be6-magic.png);
@@ -91,3 +90,4 @@ span {
     background-color: #632a50;
     color: #ccc;
 }
+
