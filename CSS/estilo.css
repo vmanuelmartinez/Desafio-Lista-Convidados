@@ -3,7 +3,8 @@
 body {
     /* background-image: url('./IMG/6cf01be6-magic.png'); */
     /*  background-image: url('/IMG/6cf01be6-magic.png'); */
-    background-image: url('../IMG/6cf01be6-magic.png');
+   /* background-image: url('../IMG/6cf01be6-magic.png'); */
+    background-image: url('.../IMG/6cf01be6-magic.png');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Sahitya", serif;
