@@ -4,16 +4,21 @@
         background-image: url('../IMG/bk-responsividade-480.jpg');
     }
 
-
-
-
-    
+    input::placeholder {
+        font-size: 18px; /* Ajusta el tamaño según sea necesario */
+        color: #888; /* Puedes también ajustar el color del texto */
+    }    
 
     .container {
         background-color: #0f185f46;
         width: 100%;
         height: 100%;
-        margin: 5%;
+        margin: 3%;
+    }
+
+    .container h1{
+        color: #000000;
+        font-size: 35px;
     }
 
     .container span:hover {
