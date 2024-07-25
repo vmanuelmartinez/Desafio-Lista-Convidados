@@ -2,10 +2,14 @@
 
     body {
         /*   background-image: url(../IMG/bk-responsividade-480.jpg);
-             background-image: url('../IMG/bk-responsividade-480.jpg'); 
+             background-image: url('../IMG/bk-responsividade-480.jpg');
+             background-image: url('/IMG/bk-responsividade-480.jpg');
+
         */
 
-background-image: url('/IMG/bk-responsividade-480.jpg')
+        background-image: url(/IMG/bk-responsividade-480.jpg);
+
+
     }
 
     .container {
